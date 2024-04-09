@@ -19,7 +19,7 @@ namespace LegacyApp.Services
             _userRepository = userRepository;
         }
 
-        public async Task<User> AddUser(string firstName, string surname, string email, DateTime dateOfBirth, int clientId)
+        public async Task<User> AddUserAsync(string firstName, string surname, string email, DateTime dateOfBirth, int clientId)
         {
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(surname))
             {
@@ -102,7 +102,7 @@ namespace LegacyApp.Services
                 throw new InvalidOperationException("insufficient credit limit");
             }
 
-            //UserDataAccess.AddUser(user);
+            //UserDataAccess.AddUserAsync(user);
             await _userRepository.AddUserAsync(user);
 
             return user;

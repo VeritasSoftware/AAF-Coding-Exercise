@@ -9,6 +9,8 @@ Please answer the following questions in a markdown file called `Answers to tec
   If I had more time,
   I would have investigated why the **UserCreditServiceClient** (legacy WCF client) is not working in .NET 6 project.
 
+  I would have added more unit tests.
+- 
 - What was the most useful feature that was added to the latest version of C#? Please include a snippet of code that shows how you've used it.
   
   string interpolation is really useful recent feature. 
