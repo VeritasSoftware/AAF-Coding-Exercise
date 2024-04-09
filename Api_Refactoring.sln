@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyApp.Services", "Legac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyApp.Abstractions", "LegacyApp.Abstractions\LegacyApp.Abstractions.csproj", "{86F13872-C8CE-4929-9A1B-F8962723EB9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyApp.Tests", "LegacyApp.Tests\LegacyApp.Tests.csproj", "{4360A00F-7756-477C-BE25-FF6347AC7027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{86F13872-C8CE-4929-9A1B-F8962723EB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F13872-C8CE-4929-9A1B-F8962723EB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F13872-C8CE-4929-9A1B-F8962723EB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4360A00F-7756-477C-BE25-FF6347AC7027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4360A00F-7756-477C-BE25-FF6347AC7027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4360A00F-7756-477C-BE25-FF6347AC7027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4360A00F-7756-477C-BE25-FF6347AC7027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
